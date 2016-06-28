@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 100px; /* .push must be the same height as .footer */
+}
+
+.landing-page div.description{
+    background: #eee;
+    padding: 0px 0px 2px 10px;
+    margin: 5px 0 12px 0;
+}
+
+.landing-page div.row{
+  margin-top:5px;
+}
+
+@media (min-width: 768px){
+.logo-container .brand{
+  color: black;
+}
+}
